@@ -7,4 +7,4 @@ RUN curl -sL https://deb.nodesource.com/setup_16.x | bash
 RUN apt-get install nodejs -y
 RUN npm i -g localtunnel
 RUN curl -fsSL https://code-server.dev/install.sh | sh
-CMD ["/bin/bash", "-c", "code-server --auth=none --port=10000 & lt --port=10000"
+CMD ["/bin/bash", "-c", "code-server --auth=none --port=10000 & lt --port=10000"]
